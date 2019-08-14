@@ -1,0 +1,11 @@
+<div class="container">
+  <div class="container-list">
+    <div class="container-content-padding">
+      <h1><%= @restaurant.name %></h1>
+      <h2><%= @restaurant.address %></h2>
+      <h2><%= @restaurant.category %></h2>
+    </div>
+    <%= link_to "Restaurant reviews", restaurant_reviews_path(@restaurant) %>
+  </div>
+  <%= link_to "Back to Restaurants", restaurants_path %>
+</div>

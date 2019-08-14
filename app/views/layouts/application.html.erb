@@ -12,9 +12,12 @@
   </head>
 
   <body>
+    <div class="header">
+      <%= link_to "All restaurants", restaurants_path, class: "link-main" %>
+      <%= link_to "Create a restaurant", new_restaurant_path, class: "link-main" %>
+    </div>
+
     <%= yield %>
   </body>
 
-  <%= javascript_include_tag "application" %> <!-- from app/assets/javascripts/application.js -->
-  <%= javascript_pack_tag "application" %>    <!-- from app/javascript/packs/application.js -->
 </html>

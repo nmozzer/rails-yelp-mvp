@@ -1,0 +1,8 @@
+<ul>
+  <% @reviews.each do |review| %>
+  <li>
+    <p>Review: <%= review.content %></p>
+    <p>Rating: <%= review.rating %></p>
+  </li>
+  <% end %>
+</ul>

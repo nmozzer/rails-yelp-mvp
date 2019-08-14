@@ -11,3 +11,29 @@
 // Your CSS partials
 @import "components/index";
 @import "pages/index";
+
+@import "restaurants";
+
+
+.header {
+  width: 100vw;
+  background-color: #333333;
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+}
+
+.link-main {
+  color: white;
+  text-decoration: none;
+  padding: 20px 10px;
+  font-weight: bold;
+} .link-main:hover {
+  text-decoration: none;
+  color: red;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0px 0px;
+}
